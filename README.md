@@ -4,9 +4,13 @@ Custom API library for the bloxd.io game engine.The goal of this is to add featu
 # HOW TO INSTALL IT:
   # index.js
   First,open up your world code,go to index.js and copy and paste this here:
+  <img width="1365" height="753" alt="image" src="https://github.com/user-attachments/assets/b2545be2-0bc3-4dea-99f6-cd12e0f75b3d" />
+
   `import {ApiPClass} from './apip.js';const apip = new ApiPClass();`
   # apip.js
   Once you're done with the first step,make a new file called "apip.js"
+  <img width="1365" height="753" alt="image" src="https://github.com/user-attachments/assets/8400d573-d921-4ede-9300-f540151f2461" />
+
   Copy and paste the code below into that file
  <details>
 <summary>Click here to view the code</summary>
@@ -16,3 +20,7 @@ export class ApiPClass { constructor() { } setLobbyDbValueP(key, value) { try { 
 ```
 
 </details>
+should look something like this:
+<img width="1365" height="753" alt="image" src="https://github.com/user-attachments/assets/b3490399-f71c-4048-89b2-350f7e7c71f7" />
+
+Voila,now your ready to use it,go to API references to see how to use the library
