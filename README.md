@@ -1,12 +1,14 @@
-# APIP-bloxd.io-custom-API-library
+# HARMONY-bloxd.io-custom-API-library
 Custom API library for the bloxd.io game engine.The goal of this is to add features that are lacking rework certain API statements
 
 # HOW TO INSTALL IT:
   # index.js
   First,open up your world code,go to index.js and copy and paste this here:
-  <img width="1365" height="753" alt="image" src="https://github.com/user-attachments/assets/b2545be2-0bc3-4dea-99f6-cd12e0f75b3d" />
 
-  `import {ApiPClass} from './apip.js';const apip = new ApiPClass();`
+
+  `import {ApiPClass} from './apip.js';const harmony = new ApiPClass();`
+  <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/1f8681e3-db7f-4273-89cb-f18ede8ab824" />
+  should look something like this
   # apip.js
   Once you're done with the first step,make a new file called "apip.js"
   <img width="1365" height="753" alt="image" src="https://github.com/user-attachments/assets/8400d573-d921-4ede-9300-f540151f2461" />
