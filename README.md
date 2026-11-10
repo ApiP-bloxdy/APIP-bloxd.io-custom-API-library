@@ -23,4 +23,4 @@ export class ApiPClass { constructor() { } setLobbyDbValueP(key, value) { try { 
 should look something like this:
 <img width="1365" height="753" alt="image" src="https://github.com/user-attachments/assets/b3490399-f71c-4048-89b2-350f7e7c71f7" />
 
-Voila,now your ready to use it,go to API references to see how to use the library
+Voila,now your ready to use it,go to HARMONY FUNCTION references to see how to use the library
