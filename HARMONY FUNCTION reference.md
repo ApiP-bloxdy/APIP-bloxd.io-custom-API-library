@@ -1,4 +1,4 @@
-# WELCOME TO APIP REFRENCE:
+# WELCOME TO FUNCTION REFRENCE:
 This page will work very similarly to the official bloxd.io api,and will be formatted the same way.
   
 All functions will be in alphabetical order,use Ctrl f(or cmd f) to find them
@@ -59,10 +59,11 @@ This is a modified version of api.setPlayerDbValue.
 
 The main difference is that you can pass any value object type you want instead of just strings and numbers
 
-See getLobbyDbValueP for how to get the value
+See setPlayerDbValueP for how to get the value
 ### Parameters:
 | Parameter | Type | Description |
 |-----------|------|-------------|
+| playerId | `string` |This is the Id of the player your value is associated with|
 | key | `string` | The name of the value you want to get|
 
 
