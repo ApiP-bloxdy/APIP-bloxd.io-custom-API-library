@@ -2,6 +2,30 @@
 This page will work very similarly to the official bloxd.io api,and will be formatted the same way.
   
 All functions will be in alphabetical order,use Ctrl f(or cmd f) to find them
+   ## calculateDiskPlayTimeH:
+This calculates the Play Time of your disks with the formula 
+
+-------------------------------------------------------
+
+PlayTime= all Intervals(minus the last note)/1000
+
+-------------------------------------------------------
+
+See createDiskH to see how to create the "disks"
+
+Also,see the music reference for more info
+### Parameters:
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| disk | `object[]` |Disk you're checking the length of|
+  ## createDiskH:
+This creates a Disk
+
+see the Music reference for more info
+### Parameters:
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| groups | `object[]` |One object value in an array,formatted like { count: 125, note: "step_stone2", interval: 250,volume:1,pitch:1},see the music reference for more info|
   ## getLobbyDbValueH:
 This is a modified version of api.getLobbyDbValue.
 
@@ -34,6 +58,14 @@ The main difference is that it returns false if it cannot find your id,while in 
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | id | `string` |This is the Id of the thing you're checking|
+  ## playDiskForAllH:
+This plays a Disk for all players in the server.
+
+See the music references for more info
+### Parameters:
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| disk | `object[]` |One object value in an array,formatted like { count: 125, note: "step_stone2", interval: 250,volume:1,pitch:1},see the music reference for more info|
 
 ## respawnMultiPlayersH:
 This allows you to respawn multiple players in groups instead of 1 by 1
