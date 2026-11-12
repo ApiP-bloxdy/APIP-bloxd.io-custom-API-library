@@ -4,10 +4,11 @@
     "Disks" are an array of objects,each containing a note with instructions on how to play it
 
     What a disk might look like:
-    `[
+    ```python
+    [
     0:{ note: "exp_collect", interval: 1500, volume: 1, pitch: 1 }
     1:{ note: "exp_collect", interval: 1500, volume: 1, pitch: 1 }
     2:{ note: "exp_collect", interval: 1500, volume: 1, pitch: 1 }
     3:{ note: "exp_collect", interval: 1500, volume: 1, pitch: 1 }
     4:{ note: "exp_collect", interval: 1500, volume: 1, pitch: 1 }
-    ]`
+    ]```
