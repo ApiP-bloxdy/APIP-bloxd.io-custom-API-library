@@ -1,6 +1,6 @@
-# Welcome to the Music references
+# Welcome to the Music references.
 
-This will tackle how disks work, how to make them, and how to play them.
+This will tackle how disks work, how to make them,how to play them,and how to make songs out of them.
 
 ## How do disks work?
 
@@ -21,7 +21,7 @@ However,manually writing them would take a ton of time,that's why we have create
 
 createDiskH allows you to dupe the same line over and over again
 
-So instead of this
+So instead of :
 
 ```javascript
 const disk1=[
@@ -36,10 +36,30 @@ const disk1=[
 ]
 ```
 
-you can do this:
+You can do this:
 ```javascript
 const disk1 = harmony.createDiskH([
   { count: 7, note: "exp_collect", interval: 1500, volume: 1, pitch: 1 }
 ]);
 ```
+Which would return the same thing but is shorted and takes much less time to write.
+
+If you do want to append a disk after you used createDiskH,just add to the end of an object like you normally would (Add up all
+the count values,then add 1.That is your key).
+
+```javascript
+const disk1 = harmony.createDiskH([
+  { count: 7, note: "exp_collect", interval: 1500, volume: 1, pitch: 1 }
+]);
+disk[8]={note: "exp_collect", interval: 1500, volume: 1, pitch: 1 }
+```
+If you want to play the disk, use playDiskForAllH,playDiskForGroup,or playDiskSpaced
+
+```javascript
+  const disk1 = harmony.createDiskH([
+  { count: 35, note: "step_stone2", interval: 250, volume: 1, pitch: 1 }
+]);
+  harmony.playDiskForAllH(disk1)
+```
+
 
