@@ -1,7 +1,11 @@
-# WELCOME TO FUNCTION REFRENCE:
+# WELCOME TO FUNCTION REFERENCES:
 This page will work very similarly to the official bloxd.io api,and will be formatted the same way.
-  
-All functions will be in alphabetical order,use Ctrl f(or cmd f) to find them
+
+All functions will be in alphabetical order,use Ctrl f(or cmd f) to find them.
+
+Use harmony.(function) to call a function(in the same way you would call an API function)
+
+ex: harmony.setPlayerDbValueH(myId,"Speed",4) would set the db value Speed to 4
    ## calculateDiskPlayTimeH:
 This calculates the Play Time of your disks with the formula 
 
